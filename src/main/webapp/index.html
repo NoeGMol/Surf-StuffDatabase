@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surf | Surf & Stuff Co.</title>
+
+
+
+
+    <link rel="stylesheet" href="./css/estilosSurfCov3.css">
+
+
+    <!-- fuentes -->
+
+
+    <!-- TITULO -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+
+
+    <!-- fuentes nav y footer -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@100..900&family=Mohave:ital,wght@0,300..700;1,300..700&display=swap"
+        rel="stylesheet">
+
+
+    <!-- fuente main -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kite+One&display=swap" rel="stylesheet">
+
+    <!-- favicon -->
+    <link rel="icon" href="img/logoaceleste.ico">
+
+</head>
+
+<body class="contenedorGrid">
+
+    <header>
+
+
+    </header>
+
+    <main>
+
+        <!-- slider principal -->
+        <div class="slideshow-container">
+            <div class="mySlides transicion">
+                <img src="./img/Surfing2.jpg" style="width:100%">
+                <div class="texto">SURF</div>
+            </div>
+            <div class="mySlides transicion">
+                <img src="./img/Surfing4.jpeg" style="width:100%">
+                <div class="texto">IS</div>
+            </div>
+            <div class="mySlides transicion">
+                <img src="./img/surfer-wave.jpeg" style="width:100%">
+                <div class="texto">FREEDOM</div>
+            </div>
+        </div>
+
+
+        <h1>Tienda-Productos</h1>
+
+        <div class="contenedorProductos">
+            <div class="items">
+                <img src="./img/accesorios.jpg" alt="accesorios">
+                <div class="texto-categorias">ACCESORIOS</div>
+            </div>
+
+            <div class="items">
+                <img src="./img/trajes.jpg" alt="trajes">
+                <div class="texto-categorias">TRAJES</div>
+                <!-- <p>TRAJES</p> -->
+            </div>
+            <div class="items">
+                <img src="./img/tablas.jpg" alt="tablas">
+                <div class="texto-categorias">TABLAS</div>
+                <!-- <p>TABLAS</p> -->
+            </div>
+        </div>
+
+        <!-- ACCESORIOS -->
+        <!-- <div class="catalogo">
+            <div class="tablas">
+                <img src="./img/cera.jpg" alt="cera">
+                <h1>Cera para Tablas</h1>
+
+                <h2>FREE LIFE</h2>
+                <P>Cera ultra stick tropical por 85 gramos</P>
+                <p>$100</p>
+                <p>Cantidad</p>
+                <button class="quitar" type="button" onclick="quitarprod()">-</button>
+                <button class="agregar" type="button" onclick="agregarprod()">+</button>
+                
+
+            </div>
+
+
+            <div class="tablas">
+                <img src="./img/gafas.png" alt="gafas">
+                <h1>Gafas de sol polarizadas azules</h1>
+
+                <h2>ATELCIC</h2>
+                <P>Gafas de sol polarizadas azules de Surf Hombres</P>
+                <p>$10.000</p>
+                <p>Cantidad</p>
+                <button class="quitar" type="button" onclick="quitarprod()">-</button>
+                <button class="agregar" type="button" onclick="agregarprod()">+</button>
+
+            </div>
+
+
+            <div class="tablas">
+                <img src="./img/gafas2.png" alt="cera">
+                <h1>Gafas de sol polarizadas negras</h1>
+
+                <h2>OAKLEY</h2>
+                <P>Gafas de sol polarizadas negras de Surf Hombres</P>
+                <p>$35.000</p>
+                <p>Cantidad</p>
+                <button class="quitar" type="button" onclick="quitarprod()">-</button>
+                <button class="agregar" type="button" onclick="agregarprod()">+</button>
+            </div>
+
+
+            <div class="tablas">item4</div>
+            <div class="tablas">item5</div>
+            <div class="tablas">item6</div>
+            <div class="tablas">item7</div>
+            <div class="tablas">item8</div>
+            <div class="tablas">item9</div>
+            <div class="tablas">item10</div>
+            <div class="tablas">item11</div>
+            <div class="tablas">item12</div>
+        </div> -->
+
+
+        <!-- tabla para productos -->
+
+        <h1>CONSULTA DE PRODUCTOS BASE DE DATOS</h1>
+<!-- 
+        <div class="contenedorTabla">
+          <table class="tablaBack"> representa a todo el elemento tabla
+            <tr>  tr table rows= filas de la tabla 
+                <th>ID</th> th table header= celdas de encabezado
+                <th>DESCRIPCION</th>
+                <th>MARCA</th>
+                <th>PRECIO</th>
+                <th>CANTIDAD</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Cera para tablas</td>
+                <td>Free life</td>
+                <td>$100</td>
+                <td>5</td>
+            </tr>
+            
+            <tr>
+                <td>2</td>
+                <td>Gafas de sol polarizadas azules</td>
+                <td>ATELCIC</td>
+                <td>$10.000</td>
+                <td>10</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Gafas de sol polarizadas negras</td>
+                <td>OAKLEY</td>
+                <td>$35.000</td>
+                <td>10</td>
+            </tr>
+
+        </table>
+        </div> -->
+        <h3 class="titulosTienda">TABLAS</h3>
+            <section id="tablasSection">
+              <div>
+                <table class="table table-striped" id="tablas">
+                  <tr class="table-primary">
+                    <th>ID tablas</th>
+                    <th>Nombre</th>
+                    <th>Tipo</th>
+                    <th>Marca</th>
+                    <th>Material</th>
+                    <th>Tamaño</th>
+                    <th>Diseño</th>
+                    <th>Precio</th>
+                  </tr>
+                </table>
+              </div>
+            </section>
+            <H3 class="titulosTienda">TRAJES</H3>
+            <section id="trajesSection">
+                <div>
+                  <table class="table table-striped" id="trajes">
+                    <tr class="table-primary">
+                      <th>ID tablas</th>
+                      <th>Nombre</th>
+                      <th>Tipo</th>
+                      <th>Marca</th>
+                      <th>Temporada</th>
+                      <th>Material</th>
+                      <th>Talle</th>
+                      <th>Tipo de cierre</th>
+                      <th>Grosor</th>
+                      <th>Precio</th>
+                    </tr>
+                  </table>
+                </div>
+              </section>
+              <H3 class="titulosTienda">ACCESORIOS</H3>
+              <section id="accesoriosSection">
+                <div>
+                  <table class="table table-striped" id="accesorios">
+                    <tr class="table-primary">
+                      <th>ID Accesorios</th>
+                      <th>Nombre</th>
+                      <th>Tipo</th>
+                      <th>Marca</th>
+                      <th>Para Traje</th>
+                      <th>Para Tabla</th>
+                      <th>Otros</th>
+                      <th>Precio</th>
+                    </tr>
+                  </table>
+                </div>
+              </section>
+
+        <!-- TRAJES -->
+        <!-- <div class="catalogo">
+            <div class="tablas">item1</div>
+            <div class="tablas">item2</div>
+            <div class="tablas">item3</div>
+            <div class="tablas">item4</div>
+            <div class="tablas">item5</div>
+            <div class="tablas">item6</div>
+            <div class="tablas">item7</div>
+            <div class="tablas">item8</div>
+            <div class="tablas">item9</div>
+            <div class="tablas">item10</div>
+            <div class="tablas">item11</div>
+            <div class="tablas">item12</div>
+        </div> -->
+
+         <!-- TABLAS  -->
+        <!-- <div class="catalogo">
+            <div class="tablas">item1</div>
+            <div class="tablas">item2</div>
+            <div class="tablas">item3</div>
+            <div class="tablas">item4</div>
+            <div class="tablas">item5</div>
+            <div class="tablas">item6</div>
+            <div class="tablas">item7</div>
+            <div class="tablas">item8</div>
+            <div class="tablas">item9</div>
+            <div class="tablas">item10</div>
+            <div class="tablas">item11</div>
+            <div class="tablas">item12</div>
+        </div> -->
+
+
+        <!-- <div class="row">
+            <div>
+                <p class="Seccion_tablas">Tablas</p>
+                <dl class="Seccion_tablas">
+                    <dd>Gun</dd>
+                    <dd>Shortboard</dd>
+                    <dd>Fish</dd>
+                    <dd>Funboard</dd>
+                    <dd>Longboard </dd>
+                </dl>
+                <p class="Seccion_tablas">Trajes</p>
+                <dl class="Seccion_tablas">
+             >       <dd>De Verano</dd>
+                    <dd>De Invierno</dd>
+                    <dd>De Media Estación</dd>
+                </dl>
+            </div>
+            <div class="Imagenes_tablas">
+                <div class="imgtablas">
+                    <div><img src="img/tablas/GUN Long Distance.png" alt="GUN Long Distance">GUN Long Distance<p><a link
+                                href="contacto.html"> Consultar</p></a></div>
+                    <div><img src="img/tablas/MAGNET Carbon.png" alt="MAGNET Carbon">MAGNET Carbon<p><a link
+                                href="contacto.html"> Consultar</p></a></div>
+                    <div><img src="img/tablas/MITU Pro Bamboo Foil.png" alt="MITU Pro Bamboo Foil">MITU Pro Bamboo Foil
+                        <p><a link href="contacto.html"> Consultar</p></a></div>
+                    <div><img src="img/tablas/MITU PRO BAMBOO.png" alt="MITU PRO BAMBOO">MITU PRO BAMBOO<p><a link
+                                href="contacto.html"> Consultar</p></a></div>
+                    <div><img src="img/tablas/MITU PRO CARBON.png" alt="MITU PRO CARBON">MITU PRO CARBON<p><a link
+                                href="contacto.html"> Consultar</p></a></div>
+                    <div><img src="img/tablas/MITU Pro Flex.png" alt="MITU Pro Flex">MITU Pro Flex<p><a link
+                                href="contacto.html"> Consultar</p></a></div>
+                    <div><img src="img/tablas/ONE.png" alt="ONE">ONE<p><a link href="contacto.html"> Consultar</p></a>
+                    </div>
+                    <div><img src="img/tablas/ROCKET Air 4'10.png" alt="ROCKET Air 4'10">ROCKET Air 4'10<p><a link
+                                href="contacto.html"> Consultar</p></a></div>
+                    <div><img src="img/tablas/ROCKET AIR 5'4.png" alt="ROCKET AIR 5'4">ROCKET AIR 5'4<p><a link
+                                href="contacto.html"> Consultar</p></a></div>
+                    <div><img src="img/tablas/ROCKET SUP DOWNWIND PRO CARBON.png"
+                            alt="ROCKET SUP DOWNWIND PRO CARBON">ROCKET SUP DOWNWIND PRO CARBON<p><a
+                                href="contacto.html">Consultar</p></a></div>
+                    <div><img src="img/tablas/ROCKET SUP DOWNWIND PRO.png" alt="ROCKET SUP DOWNWIND PRO">ROCKET SUP
+                        DOWNWIND PRO<p><a href="contacto.html">Consultar</p></a></div>
+                    <div><img src="img/tablas/ROCKET SUP DOWNWIND.png" alt="ROCKET SUP DOWNWIND">ROCKET SUP DOWNWIND<p>
+                            <a href="contacto.html">Consultar</p></a></div>
+                    <div><img src="img/tablas/ROCKET SURF.png" alt="ROCKET SURF">ROCKET SURF <p><a
+                                href="contacto.html">Consultar</p></a></div>
+                    <div><img src="img/tablas/SHADOW.png" alt="SHADOW">SHADOW <p><a href="contacto.html">Consultar</p>
+                        </a></div>
+                    <div><img src="img/tablas/SIT-KITE SURFBOARD.png" alt="SIT-KITE SURFBOARD">SIT-KITE SURFBOARD <p><a
+                                href="contacto.html">Consultar</p></a></div>
+                    <div><img src="img/tablas/SLICE Bamboo Foil.png" alt="SLICE Bamboo Foil">SLICE Bamboo Foil <p><a
+                                href="contacto.html">Consultar</p></a></div>
+                    <div><img src="img/tablas/SLICE BAMBOO.png" alt="SLICE BAMBOO">SLICE BAMBOO <p><a
+                                href="contacto.html">Consultar</p></a></div>
+                    <div><img src="img/tablas/Speed Gun AC21 Pro Model.png" alt="Speed Gun AC21 Pro Model">Speed Gun
+                        AC21 Pro Model<p><a href="contacto.html">Consultar</p></a></div>
+                    <div><img src="img/tablas/TRAX HRD CARBON.png" alt="TRAX HRD CARBON">TRAX HRD CARBON <p><a
+                                href="contacto.html">Consultar</p></a></div>
+                    <div><img src="img/tablas/TRAX HRD Lite Tech.png" alt="TRAX HRD Lite Tech">TRAX HRD Lite Tech<p><a
+                                href="contacto.html">Consultar</p></a></div>
+                    <div><img src="img/tablas/TRAX.png" alt="TRAX">TRAX <p><a href="contacto.html">Consultar</p></a>
+                    </div>
+                    <div><img src="img/tablas/TWEAK.png" alt="TWEAK">TWEAK <p><a href="contacto.html">Consultar</p></a>
+                    </div>
+                    <div><img src="img/tablas/wtf-7-1280x1280.png" alt="WTF">WTF?!<p><a href="contacto.html">Consultar
+                        </p></a></div>
+                </div>
+
+            </div>
+        </div> -->
+
+
+
+    </main>
+
+
+    <footer>
+
+
+    </footer>
+
+
+    <script src="./js/Scripts.js"></script>
+    <!-- <script> let table = new DataTable('#tablas');</script> -->
+    <script> let table = new DataTable('.table table-striped');</script>
+
+</body>
+
+</html>

@@ -1,0 +1,515 @@
+/* CONFIG GENERAL  */
+* {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+
+.contenedorGrid{
+    margin: 15px;
+    border: 1px;
+    background-color: #FFFFFF;
+    border-style:dashed;
+    box-shadow: 20px 20px 50px 15px grey;
+    /* margin: 20px; */
+}
+
+
+
+
+/* ---------------------------------------------------------------------------------- */
+
+/* config HEADER - NAV */
+nav {
+    background-color: #00A19B;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.titulo {
+    font-size: 50px;
+    border-style: double;
+    border-radius: 5px;
+    border-color: ghostwhite;
+    display: flex;
+    justify-content: end;
+    padding-right: 5px;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contenedornav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.anav {
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: "Mohave", sans-serif;
+    font-weight: weight;
+    font-style: normal;
+    padding: 20px;
+    border-color: whitesmoke;
+}
+
+.anav:hover {
+    border-radius: 5px;
+    background-color: #565F64;
+}
+
+.anav:visited {
+    color: #FFFFFF;
+}
+
+
+/* ---------------------------------------------------------------------------------- */
+/*  Config MAIN */
+
+.contenedorMain {
+    border-style: dashed;
+}
+
+h1 {
+    font-size: 20px;
+    font-family: "Kite One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+
+h2 {
+    font-size: 20px;
+    font-family: "Kite One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+section{
+    padding: 10px;
+}
+
+
+p {
+    font-size: 20px;
+    font-family: "Kite One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ul{
+    font-family: "Kite One", sans-serif;
+    font-size: 1%;
+}
+
+img {
+    width: 100%;
+    height: 200px;
+}
+
+.contenedoriframe{
+    padding: 20px;
+    height: 600px;
+    width: 100%;
+}
+
+h3 {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: "Mohave", sans-serif;
+}
+
+
+.Menutienda {
+    display: flex;
+    text-align: center;
+    border: #565F64 2px solid;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.Dentrodetienda{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+ 
+
+
+/* --font-family: "Mohave", sans-serif;   STUFF PRODUCTOS */
+
+.contenedorProductos{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 10px;
+    padding: 10px;
+    margin: 10px;
+    /* box-shadow: 0 0 10px #727272;  */
+}
+
+.items{
+    padding: 5px;
+    font-family: "Kite One", sans-serif;
+    box-shadow: 0 0 10px #727272;
+}
+
+.texto-categorias{
+    display: grid;
+    justify-content: center;
+    font-size: 20px;
+    /* font-family: "Kite One", sans-serif; */
+}
+
+/* PRODUCTOS  */
+
+
+.catalogo{
+    /* border-style: dotted; */
+    /* background-color: #000000; */
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-around;
+    /* grid-template-rows: 200px 200px 200px 200px; */
+    grid-gap: 10px;
+    padding: 10px;
+    margin: 10px; 
+    /* box-shadow: 0 0 10px #727272;  */
+}
+
+.tablas{
+    /* background-color: #00A19B; */
+    border-radius: 10px;
+    padding: 10px;
+    font-family: "Kite One", sans-serif;
+    box-shadow: 0 0 10px #727272;
+    font-size: 30px;
+    
+}
+
+
+/* TABLA DE PRODUCTOS */
+
+
+.agregar{
+    background-color: #000000;
+    color: white;
+    border-radius: 5px;
+}
+
+.quitar{
+    background-color: #000000;
+    color: white;
+    border-radius: 5px; 
+
+}
+
+/* TABLA BACKEND */
+
+
+.contenedorTabla{
+    display: grid;
+
+    grid-template-columns: repeat(1, auto);
+    padding: 10px;
+    margin: 10px;
+}
+
+.tablaBack{
+    border-radius: 5px;
+    box-shadow: 0 0 10px #727272;
+    font-family: "Kite One", sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+tr, th , td{
+    margin: 20px;
+    padding: 10px;
+    background-color: black;
+}
+
+#tablasSection {
+    display: grid;
+    Justify-content: center;
+    grid-template-columns: repeat(1, auto);
+    padding: 10px;
+    margin: 10px;    
+}
+
+#tablas {   
+    border-radius: 5px;
+    box-shadow: 0 0 10px #727272;
+    font-family: "Kite One", sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+#trajesSection {
+    display: grid;
+    Justify-content: center;
+    grid-template-columns: repeat(1, auto);
+    padding: 10px;
+    margin: 10px;    
+}
+
+#trajes {   
+    border-radius: 5px;
+    box-shadow: 0 0 10px #727272;
+    font-family: "Kite One", sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+#accesoriosSection {
+    display: grid;
+    Justify-content: center;
+    grid-template-columns: repeat(1, auto);
+    padding: 10px;
+    margin: 10px;    
+}
+
+#accesorios {   
+    border-radius: 5px;
+    box-shadow: 0 0 10px #727272;
+    font-family: "Kite One", sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.titulosTienda{
+    text-align: center !important;
+    color: black;
+}
+
+/* ESTILOS SLIDER PRINCIPAL */
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+}
+
+/* OCULTA LAS IMAGENES POR DEFAULF */
+.mySlides {
+    display: none;
+}
+
+
+/* texto imagenes slider */
+.texto {
+    color: #000000;
+    font-family: "Kite One", sans-serif;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Animacion  */
+.transicion {
+    animation-name: transicion;
+    animation-duration: 1.5s;
+}
+
+@keyframes transicion {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* ESTILOS FORMULARIO */
+
+.contenedorform{
+    display: grid; 
+    font-size: 40px;
+    justify-content: center;
+    font-family: "Kite One", sans-serif;
+    padding: 10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+
+form{
+    display: grid;
+    justify-content: center;
+    font-family: "Kite One", sans-serif;
+    border: 1px dotted;
+    padding: 10px;
+    box-shadow: 0 0 10px #727272;
+} 
+
+.h2contacto{
+    text-align: center;
+}
+
+.Btn-container{
+    display: grid;
+    justify-content: center; 
+}
+
+.enviarbtn{
+    color: #FFFFFF;
+    padding: 5px;
+    font-size: 15px;
+    background-color: #000000; 
+    border-radius: 10px;
+    font-family: "Kite One", sans-serif;
+}
+
+.enviarbtn:hover {
+    color: gold;
+}
+
+.borrarbtn{
+    margin-top: 5px;
+    color: #FFFFFF;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    font-family: "Kite One", sans-serif;
+}
+
+.borrarbtn:hover {
+    color: gold;
+}
+
+/* ---------------------------------------------------------------------------------- */
+/* config API */
+
+
+.tarjeta-api{
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.divapi2{
+    color: #000000;
+    box-shadow: 0 0 10px #727272;
+    padding: 10px;
+    border: 1px dotted black;
+}
+
+
+.apibtn{
+    display: grid;
+    justify-content: center;
+}
+
+.apiboton{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    font-family: "Kite One", sans-serif;
+}
+
+.apiboton:hover{
+    color: gold;
+}
+
+/* ---------------------------------------------------------------------------------- */
+/* config FOOTER */
+
+.contendenorfooter {
+    display: flex;
+    justify-content: center;
+    background-color: #00A19B;
+    padding: 20px;
+}
+
+.afooter {
+    font-size: 20px;
+    font-family: "Mohave", sans-serif;
+    font-weight: weight;
+    font-style: normal;
+    padding: 10px;
+    border-color: whitesmoke;
+}
+
+.afooter:hover {
+    border-radius: 5px;
+    background-color: #565F64
+}
+
+.afooter:visited {
+    color: #FFFFFF;
+}
+
+
+
+/* ---------------------------------------------------------------------------------- */
+/* MEDIA QUERYS PARA DISEÑO RESPONSIVE* */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .contenedorGrid {
+        background-color: #FFFFFF;
+
+        
+    }
+
+
+    /* FUNCIONA GRID HAY QUE ACOMODAR A UNA COLUMNA HORIENTACION VERTICAL - PENDIENTE*********** */
+    /* .contenedorProductos {
+        background-color: goldenrod;
+        
+    } */
+    
+    
+    
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .contenedorGrid {
+        background-color: #FFFFFF;
+    }
+
+    
+    /* h2{
+        text-align: center;
+    } */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .contenedorGrid {
+        background-color: #FFFFFF;
+    }
+
+    /* h2{
+        text-align: end;
+    } */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .contenedorGrid {
+        background-color: #FFFFFF;
+    }
+
+
+}
